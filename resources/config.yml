@@ -1,0 +1,36 @@
+---
+messages:
+  honey-count: "&aYou have {honey}"
+# What player recieves on command execution^
+
+ce-id: 200
+ce-name: "Honey++"
+max-level: 10
+# What is the max ce-level?^
+
+chance: 20 # your ## / 100%  practically
+# How often will the ce activate?^
+
+shop:
+  # You can go up to 53 keys || (Double Chest Inventory)
+  # Start at 0 for the first slot.
+  # Lore doesn't determine prices.
+  0:
+    id: 274 # Item Id || (Of item purchased)
+    meta: 0 # Item Meta || (0 = Default)
+    name: "&bTikTok" # Item Name
+    lore:
+      - "&r&dPrice - 2 Gems" # Lore One
+      - "&r&aLore Line Two" # Lore Two
+    price: 2 # How much honey will it take
+    count: 1 # How many items
+  1:
+    id: 276
+    meta: 0
+    name: "&bInstagram"
+    lore:
+      - "&dPrice - 20 Gems"
+      - "&r&aLore doesn't determine price btw"
+    price: 20
+    count: 1
+...
