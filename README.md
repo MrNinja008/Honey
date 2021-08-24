@@ -7,7 +7,7 @@ Absorb honey from breaking blocks!<br>
 Honey has a built in autosell system, and is a virtual economy similair to EconomyAPI.<br>
 
 # Images
-<img src="images/iconn.jpg" width="150">⠀⠀<img src="images/software/PocketMine-MP.png" width="90">
+<img src="images/iconn.jpg" width="90">⠀<img src="images/software/PocketMine-MP.png" width="90">
 
 # Contact 
 - Soul ✞#9999 (Discord)
