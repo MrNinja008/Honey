@@ -1,0 +1,6 @@
+name: Honey
+main: Sooulz\Honey\Honey
+version: 1.0.0
+api: 3.0.0
+author: Sinkerz
+# commands:
