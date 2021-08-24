@@ -14,5 +14,5 @@ Honey has a built in autosell system, and is a virtual economy similair to Econo
 <img src="images/authors/Soulz.png" width="150">
 
 # Reporting Bugs
-To report a bug, open an issue on the Github:
+To report a bug, open an issue on the Github:<br>
 https://github.com/Pinesolz/Honey
