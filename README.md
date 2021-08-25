@@ -1,9 +1,9 @@
 # Honey
-<img align="right" src="icon.jpg" width="270">
+<img align="right" src="honeycomb.png" width="270">
 
 | License | Poggit | Release |
 | :-----: | :----: | :-----: |
-|[![GitHub license](https://img.shields.io/github/license/Pinesolz/Honey.svg)](https://github.com/Pinesolz/Honey/blob/master/LICENSE)|[![Poggit-CI](https://poggit.pmmp.io/ci.shield/Soulz/Honey/Honey)](https://poggit.pmmp.io/ci/Soulz/Honey/Honey)|[![](https://poggit.pmmp.io/shield.state/Honey)](https://poggit.pmmp.io/p/Honey)|
+|[![GitHub license](https://img.shields.io/github/license/Pinesolz/Honey.svg)](https://github.com/Pinesolz/Honey/blob/master/LICENSE)|[![](https://poggit.pmmp.io/shield.api/Honey)](https://poggit.pmmp.io/p/Honey)|[![](https://poggit.pmmp.io/shield.state/Honey)](https://poggit.pmmp.io/p/Honey)|
 
 # Info
 Absorb honey from breaking blocks!<br> 
