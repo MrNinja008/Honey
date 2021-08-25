@@ -1,6 +1,6 @@
 <?php
 
-namespace Soulz\Honey\enchants;
+namespace Soulz\Honey\commands\enchants;
 
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
