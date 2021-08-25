@@ -8,11 +8,11 @@ use pocketmine\utils\TextFormat;
 class Utils{
 
     public static function getData(): Config{
-        return Loader::getInstance()->getData();
+        return Honey::getInstance()->getData();
     }
 
     public static function getConfig(): Config{
-        return Loader::getInstance()->getConfig();
+        return Honey::getInstance()->getConfig();
     }
 
     public static function getHoney(string $player): int{
