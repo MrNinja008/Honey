@@ -3,4 +3,17 @@ main: Soulz\Honey\Honey
 version: 1.0.0
 api: 3.0.0
 author: Soulz
-# commands:
+description: "Honey is an api economy for PocketMine with a built in shop and enchant!"
+commands:
+  honey:
+    default: true
+    description: "View your honey!"
+  hce:
+    default: false # (operator only)
+    decription: "Enchant your pickaxe with Honey++!"
+  honeyshop:
+    default: true
+    description: "Shop using honey!"
+enchants:
+  honey++:
+    description: "Earn honey while mining!"
