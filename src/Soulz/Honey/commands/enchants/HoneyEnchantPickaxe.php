@@ -37,11 +37,11 @@ class HoneyEnchantPickaxe extends Command{
             return;
         }
         if(!isset($args[0])){
-            $sender->sendMessage("Usage: /$commandLabel (level)");
+            $sender->sendMessage("Usage: /$commandLabel {level}");
             return;
         }
         $level = intval($args[0]);
-        $item->addEnchantment(new EnchantmentInstance(Honey::getInstance()->getHoneyEnchantPickaxeLevel ?? 1));
+        $item->addEnchantment(new EnchantmentInstance(Honey::getInstance()->getHoneyEnchantPickaxe(), $level ?? 1));
         $lore = $item->getLore();
         foreach($lore as $key => $datum){
             if(strpos($datum, "Honey ") !== false){
@@ -56,6 +56,6 @@ class HoneyEnchantPickaxe extends Command{
         }
         $item->setLore($lore);
         $sender->getInventory()->setItemInHand($item);
-        $sender->sendMessage(TF::GREEN . "Enchanted!");
+        $sender->sendMessage(TextFormat::GREEN . "Enchanted Pickaxe!");
     }
 }
