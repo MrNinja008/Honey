@@ -50,7 +50,7 @@ class Honey extends PluginBase implements Listener{
     /**
      * @return Enchantment
      */
-    public function getHoneyEnchant(): Enchantment{
+    public function getHoneyEnchantPickaxe(): Enchantment{
         return $this->honeyEnchant;
     }
 
