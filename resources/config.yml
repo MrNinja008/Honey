@@ -12,9 +12,11 @@
 #   Honey Configuraton
 #     (Pocketmine Economy)
 
+# Use tag "{honey}" to display players amount of honey.
+
 messages:
   # What player recieves on command execution "/honey"
-  honey-count: "&aYou have {honey}"
+  honey-count: "&aYou have {honey}"!
 
 
 # Custom Enchant Name
