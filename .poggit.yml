@@ -5,7 +5,7 @@ branches:
 projects:
   Honey:
     path: ""
-    icon: "icon.jpg"
+    icon: "honeycomb.png"
     libs:
       - src: muqsit/invmenu/invmenu
         version: ^4.1.1
