@@ -1,5 +1,5 @@
 # Honey
-<img align="right" src="images/icon.jpg" width="270">
+<img align="right" src="icon.jpg" width="270">
 
 | License | Poggit | Release |
 | :-----: | :----: | :-----: |
