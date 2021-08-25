@@ -17,6 +17,7 @@ use muqsit\invmenu\InvMenuHandler;
 
 class Honey extends PluginBase implements Listener{
 
+    /** @var self */
     private static $instance;
 
     private $data;
@@ -54,7 +55,10 @@ class Honey extends PluginBase implements Listener{
         return $this->honeyEnchant;
     }
 
-    public static function getInstance() : self{
+    /** 
+    * @var Honey
+    */
+    public static function getInstance(): self{
         return self::$instance;
     }
 
