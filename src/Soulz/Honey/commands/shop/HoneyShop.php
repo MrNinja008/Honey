@@ -17,7 +17,7 @@ use Soulz\Honey\Utils;
 class HoneyShop extends Command{
 
     public function __construct(){
-        parent::__construct("Honeyhop");
+        parent::__construct("Honeyshop");
         $this->setDescription("Open Honey Shop");
     }
 
