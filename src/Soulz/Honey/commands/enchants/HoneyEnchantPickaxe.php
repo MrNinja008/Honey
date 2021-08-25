@@ -41,7 +41,7 @@ class HoneyEnchantPickaxe extends Command{
             return;
         }
         $level = intval($args[0]);
-        $item->addEnchantment(new EnchantmentInstance(Loader::getInstance()->getHoneyEnchantPickaxevel ?? 1));
+        $item->addEnchantment(new EnchantmentInstance(Honey::getInstance()->getHoneyEnchantPickaxeLevel ?? 1));
         $lore = $item->getLore();
         foreach($lore as $key => $datum){
             if(strpos($datum, "Honey ") !== false){
