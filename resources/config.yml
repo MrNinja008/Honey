@@ -1,15 +1,31 @@
 ---
+#
+#     /$$$$$$                      /$$          
+#    /$$__  $$                    | $$          
+#   | $$  \__/  /$$$$$$  /$$   /$$| $$ /$$$$$$$$
+#   |  $$$$$$  /$$__  $$| $$  | $$| $$|____ /$$/
+#    \____  $$| $$  \ $$| $$  | $$| $$   /$$$$/ 
+#    /$$  \ $$| $$  | $$| $$  | $$| $$  /$$__/  
+#   |  $$$$$$/|  $$$$$$/|  $$$$$$/| $$ /$$$$$$$$
+#    \______/  \______/  \______/ |__/|________/
+#
+#   Honey Configuraton
+#     (Pocketmine Economy)
+
 messages:
+  # What player recieves on command execution "/honey"
   honey-count: "&aYou have {honey}"
-# What player recieves on command execution^
 
-ce-id: 200
+
+# Custom Enchant Name
 ce-name: "Honey++"
+# Custom Enchant Id (You can now mix it with other custom enchant plugins)
+ce-id: 200
+# What is the max ce-level?
 max-level: 10
-# What is the max ce-level?^
-
+# How often will the ce activate?
 chance: 20 # your ## / 100%  practically
-# How often will the ce activate?^
+
 
 shop:
   # You can go up to 53 keys || (Double Chest Inventory)
