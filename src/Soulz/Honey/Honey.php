@@ -2,7 +2,6 @@
 
 namespace Soulz\Honey;
 
-use muqsit\invmenu\InvMenuHandler;
 use pocketmine\event\block\BlockBreakEvent;
 use pocketmine\event\Listener;
 use pocketmine\item\enchantment\Enchantment;
@@ -14,6 +13,7 @@ use pocketmine\utils\TextFormat;
 use Soulz\Honey\commands\MyHoneyCommand;
 use Soulz\Honey\commands\shop\HoneyShop;
 use Soulz\Honey\commands\enchants\HoneyEnchantPickaxe;
+use muqsit\invmenu\InvMenuHandler;
 
 class Honey extends PluginBase implements Listener{
 
