@@ -39,7 +39,7 @@ class Honey extends PluginBase implements Listener{
         $this->data = new Config($this->getDataFolder() . "honeydata.yml", Config::YAML);
         $id = $this->getConfig()->get("ce-id", 200);
         $name = TextFormat::colorize($this->getConfig()->get("ce-name", "Honey++"));
-        $maxLevel = $this->getConfig()->get("max-level", 3);
+        $maxLevel = $this->getConfig()->get("max-level", 10);
         Enchantment::registerEnchantment($this->honeyEnchant = new Enchantment($id, $name, Enchantment::RARITY_COMMON, Enchantment::SLOT_PICKAXE, Enchantment::SLOT_NONE, $maxLevel));
     }
 
@@ -66,7 +66,7 @@ class Honey extends PluginBase implements Listener{
         $item = $event->getItem();
         $player = $event->getPlayer();
         $randomizer = mt_rand(0, 100);
-        $chance = $this->getConfig()->get("chance", 100);
+        $chance = $this->getConfig()->get("chance", 2);
         if($randomizer <= $chance){
             $amount = mt_rand(1, 3);
             $id = $this->getConfig()->get("ce-id", 200);
