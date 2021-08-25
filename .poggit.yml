@@ -5,4 +5,7 @@ branches:
 projects:
   Honey:
     path: ""
+    libs:
+      - src: muqsit/invmenu/invmenu
+        version: ^4.1.
 ...
