@@ -30,7 +30,9 @@ shop:
     name: "&bInstagram"
     lore:
       - "&dPrice - 20 Gems"
-      - "&r&aLore doesn't determine price btw"
+      - "&r&d!"
+      - "&r&c!"
+      - "&r&6!"
     price: 20
     count: 1
 ...
