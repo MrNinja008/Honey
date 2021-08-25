@@ -17,10 +17,6 @@ You can add items to the shop, change the enchant and do lots more!<br><br>
 
 More configurations should be coming soon!
 
-# Plugin Erroring?
-This plugin requires InvMenu by Muqsit, without it this will not work!<br>
-(The shop requires this plugin)<br>
-
 # Images
 
 # Contact 
