@@ -2,6 +2,7 @@ name: Honey
 main: Soulz\Honey\Honey
 version: 1.0.0
 api: 3.0.0
+mcpe-protocol: [448]
 author: Soulz
 description: "Honey is an api economy for PocketMine with a built in shop and enchant!"
 commands:
