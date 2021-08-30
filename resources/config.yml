@@ -16,7 +16,7 @@
 
 messages:
   # What player recieves on command execution "/honey"
-  honey-count: "&aYou have {honey}"!
+  honey-count: "&aYou have {honey}!"
 
 
 # Custom Enchant Name
